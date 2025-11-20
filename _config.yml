@@ -1,8 +1,8 @@
-title: Mandaguyat
-email: info@mandaguyat.com
+title: Mandiri Agung Yatra
+email: info@mandiriagung.co.id
 description: Solusi digital modern untuk bisnis dan pengelolaan Anda.
 baseurl: "" # jika di subfolder, isi seperti "/repo"
-url: "https://mandaguyat.com"
+url: "https://mandiriagung.co.id"
 markdown: kramdown
-# theme: mandaguyat
+# theme: mandiri-agung-yatra
 permalink: /:path/

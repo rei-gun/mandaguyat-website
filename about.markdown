@@ -4,10 +4,10 @@ title: About
 ---
 
 
-## About Mandaguyat
+## About Mandiri Agung Yatra
 
 
-Mandaguyat didirikan untuk membantu UKM dan enterprise membangun sistem digital yang handal.
+Mandiri Agung Yatra didirikan untuk membantu UKM dan enterprise membangun sistem digital yang handal.
 
 
-Kontak: info@mandaguyat.com
+Kontak: info@mandiriagung.co.id

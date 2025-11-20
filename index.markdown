@@ -1,13 +1,13 @@
 ---
 layout: landing
-title: Mandaguyat
+title: Mandiri Agung Yatra
 ---
 
 
 # Solusi Digital Modern untuk Bisnis dan Operasional Anda
 
 
-Mandaguyat membantu bisnis bertransformasi dengan produk digital berkualitas: website, aplikasi mobile, automasi, dan dashboard analytics.
+Mandiri Agung Yatra membantu bisnis bertransformasi dengan produk digital berkualitas: website, aplikasi mobile, automasi, dan dashboard analytics.
 
 
 ---
@@ -24,4 +24,4 @@ Mandaguyat membantu bisnis bertransformasi dengan produk digital berkualitas: we
 ---
 
 
-Ingin demo atau proposal? Hubungi kami: **info@mandaguyat.com**
+Ingin demo atau proposal? Hubungi kami: **info@mandiriagung.co.id**
