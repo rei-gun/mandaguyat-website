@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+
+  {% include header.html %}
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+
+      <div class="hero-content">
+        <h1>{{ page.title | default: site.title }}</h1>
+        <p class="lead">{{ site.description }}</p>
+
+        <p class="hero-cta">
+          <a class="btn-primary" href="mailto:{{ site.email }}">Get in touch</a>
+          <a class="btn-ghost" href="#services">Our Services</a>
+        </p>
+      </div>
+
+      <div class="hero-media">
+        <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Mandiri Agung Yatra Logo" style="max-width: 100%; height: auto;">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Services</h2>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <h3>Web Development</h3>
+          <p>Fast, accessible, & SEO-friendly websites.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Mobile Apps</h3>
+          <p>Cross-platform apps with great UX.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Automation & AI</h3>
+          <p>Workflows, bots, and intelligent automation.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Analytics & Dashboards</h3>
+          <p>Visualize KPIs & real-time monitoring.</p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTENT (Markdown inserted here) -->
+  <section class="section">
+    <div class="container content-card">
+      {{ content }}
+    </div>
+  </section>
+
+  {% include footer.html %}
+
+</body>
+</html>
