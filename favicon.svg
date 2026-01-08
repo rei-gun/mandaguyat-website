@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Outer circle border -->
+  <circle cx="200" cy="200" r="190" fill="none" stroke="#2563eb" stroke-width="8"/>
+  
+  <!-- Sky texture lines (varying lengths, more on left) -->
+  <g opacity="0.4">
+    <line x1="30" y1="60" x2="200" y2="60" stroke="#2563eb" stroke-width="2"/>
+    <line x1="30" y1="80" x2="250" y2="80" stroke="#2563eb" stroke-width="1.5"/>
+    <line x1="30" y1="100" x2="220" y2="100" stroke="#2563eb" stroke-width="1.5"/>
+    <line x1="30" y1="120" x2="280" y2="120" stroke="#2563eb" stroke-width="1"/>
+    <line x1="30" y1="140" x2="300" y2="140" stroke="#2563eb" stroke-width="1"/>
+  </g>
+  
+  <!-- Mountains (three prominent peaks, tallest on left) -->
+  <path d="M 50 240 L 90 130 L 130 190 L 170 160 L 220 200 L 270 140 L 310 180 L 350 240 Z" fill="#2563eb"/>
+  
+  <!-- Sun/Moon (hollow circle) -->
+  <circle cx="290" cy="120" r="25" fill="none" stroke="#2563eb" stroke-width="4"/>
+  
+  <!-- Mountain climber ascending from left -->
+  <g transform="translate(100, 180)">
+    <rect x="-8" y="-20" width="16" height="40" fill="#2563eb"/>
+    <circle cx="0" cy="-25" r="12" fill="#2563eb"/>
+    <rect x="-12" y="-15" width="10" height="25" fill="#2563eb"/>
+    <line x1="15" y1="-25" x2="15" y2="10" stroke="#2563eb" stroke-width="3"/>
+    <polygon points="15,-25 30,-20 15,-15" fill="#2563eb"/>
+    <line x1="-5" y1="20" x2="-8" y2="35" stroke="#2563eb" stroke-width="4"/>
+    <line x1="5" y1="20" x2="8" y2="35" stroke="#2563eb" stroke-width="4"/>
+  </g>
+  
+  <!-- MANDIRI AGUNG bar -->
+  <rect x="40" y="245" width="320" height="35" fill="#2563eb"/>
+  <text x="200" y="267" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">MANDIRI AGUNG</text>
+  
+  <!-- YATRA bar (shorter) -->
+  <rect x="120" y="290" width="160" height="30" fill="#2563eb"/>
+  <text x="200" y="310" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">YATRA</text>
+  
+  <!-- Bottom circle -->
+  <circle cx="200" cy="340" r="8" fill="#2563eb"/>
+</svg>

@@ -1,8 +1,8 @@
 title: Mandiri Agung Yatra
 email: info@mandiriagung.co.id
-description: Solusi digital modern untuk bisnis dan pengelolaan Anda.
-baseurl: "" # jika di subfolder, isi seperti "/repo"
+description: Modern digital solutions for your business and management.
+baseurl: "" # if in subfolder, fill like "/repo"
 url: "https://mandiriagung.co.id"
 markdown: kramdown
-# theme: mandiri-agung-yatra
+
 permalink: /:path/

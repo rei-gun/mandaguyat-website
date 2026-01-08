@@ -7,7 +7,7 @@ title: About
 ## About Mandiri Agung Yatra
 
 
-Mandiri Agung Yatra didirikan untuk membantu UKM dan enterprise membangun sistem digital yang handal.
+Mandiri Agung Yatra was established to help SMEs and enterprises build reliable digital systems.
 
 
-Kontak: info@mandiriagung.co.id
+Contact: info@mandiriagung.co.id
