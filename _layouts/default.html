@@ -1,11 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
+  <head>{% include head.html %}</head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     {% include header.html %}
-    <main class="main container">{{ content }}</main>
+    <main id="main-content">{{ content }}</main>
     {% include footer.html %}
   </body>
 </html>
