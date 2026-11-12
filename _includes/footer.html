@@ -1,19 +1,19 @@
-<footer class="site-footer">
+<footer class="site-footer{% if page.url == '/' %} site-footer-home{% endif %}{% if page.portfolio_deck %} site-footer-portfolio{% endif %}">
   <div class="container">
-    <div class="footer-grid">
+    {% unless page.portfolio_deck %}
+    <div class="footer-top">
       <div>
-        <strong>{{ site.title }}</strong>
-        <p class="muted">{{ site.description }}</p>
+        <p class="eyebrow"><span class="status-dot"></span> HAVE SOMETHING IN MIND?</p>
+        <h2>Let's build something<br><em>that lasts.</em></h2>
       </div>
-      <div>
-        <p>Contact</p>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </div>
-      <div>
-        <p>© {{ "now" | date: "%Y" }} {{ site.title }}</p>
-      </div>
+      <a class="footer-cta" href="mailto:{{ site.email }}" aria-label="Email {{ site.email }}">↗</a>
+    </div>
+    {% endunless %}
+    <div class="footer-bottom">
+      <div><strong>Mandiri Agung Yatra</strong><span>Thoughtful technology, made for real life.</span></div>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <span>© {{ 'now' | date: '%Y' }} Mandiri Agung Yatra</span>
     </div>
   </div>
 </footer>
-
-<script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
